@@ -49,6 +49,9 @@ Your job is to take a given string of DNA and output a string of amino acids.
 ```
 SRP
 ```
+### Restrictions
+This challenge MUST be written in python3! We will be using tio.run to evaluate answers. Please view [this link](https://tio.run/##FckxDgIhEEbhfk8xoVlotrGzM5voBbyAkXGXgoHM/CRyesTu5Xu14yxyGSPyh@C/4boQOefo3uSNVISOwkYnK/95TmU0FVpjy7mTQZMc60i5FgVZt6VOgYefvRlikk35FX0IYdyej33/AQ) for a sample.
+Only the 'Code' section will be counted towards the size category.
 
 ### Resources
 The codon conversion table can be found here: https://en.wikipedia.org/wiki/DNA_codon_table
