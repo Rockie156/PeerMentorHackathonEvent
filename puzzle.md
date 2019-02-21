@@ -4,18 +4,16 @@ title: Puzzle
 permalink: /puzzle/
 ---
 
-## The Challenge
-
 We've found some alien DNA!
 
 Help us convert their genetic code to proteins.
 
-The only difference is that rather than codons being independent units, it seems that aliens have overlapping codons. Additionally, the mapping is slightly more complex
-than humans. 
+The aliens appear to have two key differences:
 
-While humans have a map of of for example GAA corresponds to Glutamic Acid, during Alien transcription the codon is actually sorted (by alphabetical order) into AAG which then corresponds to Lysine.
-Additionally, the Aliens have a 'sliding scope' of view for DNA. Rather than codons being independent units, we shift one over.
+1. Their transcription enzyme shifts only 1 base rather than 3 (each codon is still 3 base pairs long).
+2. Their enzymes sort codons before transcribing them to amino acids!
 
+### Example Trace
 For example, the following sequence:
 
 ATGCC
@@ -34,10 +32,14 @@ CCG
 
 Which finally correspond to the amino acids:
 
-Serine (S)
-Arginine (R)
-Proline (P)
+Serine (S), Arginine (R), Proline (P)
 
+### Example Output
 Your job is to take a given string of DNA and output a string of amino acids.
+SRP
 
-Please keep in mind that there are two categories for submission: Fastest Code and Smallest Code.
+### Resources
+The codon conversion table can be found here: https://en.wikipedia.org/wiki/DNA_codon_table
+
+# Submission
+Please keep in mind that there are two categories for submission: Fastest Code and Smallest Code. We will be collecting solutions the day of the event and showcasing and discussing them. You <b>must</b> attend to be eligible for prizes.
