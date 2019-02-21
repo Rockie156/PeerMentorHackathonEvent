@@ -16,27 +16,39 @@ The aliens appear to have two key differences:
 ### Example Trace
 For example, the following sequence:
 
+```
 ATGCC
+```
 
 results in the following codons:
 
+```
 ATG
 TGC
 GCC
+```
 
 Each codon is then sorted to
 
+```
 AGT
 CGT
 CCG
-
+```
 Which finally correspond to the amino acids:
 
-Serine (S), Arginine (R), Proline (P)
+```
+Serine (S) 
+Arginine (R)
+Proline (P)
+```
 
 ### Example Output
 Your job is to take a given string of DNA and output a string of amino acids.
+
+```
 SRP
+```
 
 ### Resources
 The codon conversion table can be found here: https://en.wikipedia.org/wiki/DNA_codon_table
