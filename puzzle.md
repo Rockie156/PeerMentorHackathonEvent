@@ -11,29 +11,6 @@ Help us convert their genetic code to proteins.
 The aliens appear to have two key differences:
 
 1. Their transcription enzyme shifts only 1 base rather than 3 (each codon is still 3 base pairs long).
-
-This means that rather than reading the following DNA
-
-```
-ATTGGC
-```
-
-as
-
-```
-ATT GGC
-```
-
-We instead read it as 
-
-
-```
-AAT
-TTG
-TGG
-GGC
-```
-
 2. Their enzymes sort codons before transcribing them to amino acids
 
 ### Example Trace
