@@ -36,7 +36,7 @@ CGT
 CCG
 ```
 
-Which (after performing a lookup on the codon to protein table [here](https://en.wikipedia.org/wiki/DNA_codon_table) results in the following proteins:
+Which (after performing a lookup [here](https://en.wikipedia.org/wiki/DNA_codon_table)) results in:
 
 ```
 Serine (S) 
