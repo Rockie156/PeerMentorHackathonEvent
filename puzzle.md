@@ -11,16 +11,39 @@ Help us convert their genetic code to proteins.
 The aliens appear to have two key differences:
 
 1. Their transcription enzyme shifts only 1 base rather than 3 (each codon is still 3 base pairs long).
-2. Their enzymes sort codons before transcribing them to amino acids!
+
+This means that rather than reading the following DNA
+
+```
+ATTGGC
+```
+
+as
+
+```
+ATT GGC
+```
+
+We instead read it as 
+
+
+```
+AAT
+TTG
+TGG
+GGC
+```
+
+2. Their enzymes sort codons before transcribing them to amino acids
 
 ### Example Trace
-For example, the following sequence:
+Consider the following DNA sequence
 
 ```
 ATGCC
 ```
 
-results in the following codons:
+The transcription enzyme will produce the following codons:
 
 ```
 ATG
@@ -35,7 +58,8 @@ AGT
 CGT
 CCG
 ```
-Which finally correspond to the amino acids:
+
+Which (after performing a lookup on the codon to protein table [here](https://en.wikipedia.org/wiki/DNA_codon_table) results in the following proteins:
 
 ```
 Serine (S) 
@@ -50,11 +74,11 @@ Your job is to take a given string of DNA and output a string of amino acids.
 SRP
 ```
 ### Restrictions
-This challenge MUST be written in python3! We will be using tio.run to evaluate answers. Please view [this link](https://tio.run/##FckxDgIhEEbhfk8xoVlotrGzM5voBbyAkXGXgoHM/CRyesTu5Xu14yxyGSPyh@C/4boQOefo3uSNVISOwkYnK/95TmU0FVpjy7mTQZMc60i5FgVZt6VOgYefvRlikk35FX0IYdyej33/AQ) for a sample.
+This challenge MUST be written in python3! We will be using tio.run to evaluate answers. Please view [this link](https://tio.run/##ZVHLTsMwELz7K1buoYlURSBuSDlUIHpDCHpBCFWm2SSGeB3ZG0r4@WDnQQ@9OJtdz8zOuO25tnQzDCt4sQahauyHajwYXdUMlYUaHQofRodpBDnI3XxJOaQ1g2pOqvfANYK3TcfakhRiBa@2c1B2dIydwIV@YiuwBHaKfGmdSX7SWwEgpYSHi6uxHYYOuXME66IzpgfPTlO1HrRprWMIRIU1Yv7zvRejQIWETjEeNLUdJ/Sv8jySheVnIjhaYqUplmpmA81oPJQulN@q6cI6J801NEhV@NC81zzK4U1u5QbkPh67eNzJ9/PeUmafVlMycWfH2uoj@mRCb@ArpzSNee2QxxBnFVtCDPD@cQtembZBQUFKEyfBZOa50JQ5VEWyoCfDZxMTKvJ4/YtAIlLll8lE9H55j2A9alhonWXU5MVSBOj51QLViHsKEfKIKYEw2PLK9aHfxn6yQNPh@uoP) for a sample.
 Only the 'Code' section will be counted towards the size category.
 
 ### Resources
-The codon conversion table can be found here: https://en.wikipedia.org/wiki/DNA_codon_table
+You are encouraged to use the internet! Please feel free to use any resources you'd like.
 
 # Submission
 Please keep in mind that there are two categories for submission: Fastest Code and Smallest Code. We will be collecting solutions the day of the event and showcasing and discussing them. You <b>must</b> attend to be eligible for prizes.
