@@ -54,8 +54,13 @@ SRP
 This challenge MUST be written in python3! We will be using tio.run to evaluate answers. Please view [this link](https://tio.run/##ZVHLTsMwELz7K1buoYlURSBuSDlUIHpDCHpBCFWm2SSGeB3ZG0r4@WDnQQ@9OJtdz8zOuO25tnQzDCt4sQahauyHajwYXdUMlYUaHQofRodpBDnI3XxJOaQ1g2pOqvfANYK3TcfakhRiBa@2c1B2dIydwIV@YiuwBHaKfGmdSX7SWwEgpYSHi6uxHYYOuXME66IzpgfPTlO1HrRprWMIRIU1Yv7zvRejQIWETjEeNLUdJ/Sv8jySheVnIjhaYqUplmpmA81oPJQulN@q6cI6J801NEhV@NC81zzK4U1u5QbkPh67eNzJ9/PeUmafVlMycWfH2uoj@mRCb@ArpzSNee2QxxBnFVtCDPD@cQtembZBQUFKEyfBZOa50JQ5VEWyoCfDZxMTKvJ4/YtAIlLll8lE9H55j2A9alhonWXU5MVSBOj51QLViHsKEfKIKYEw2PLK9aHfxn6yQNPh@uoP) for a sample.
 Only the 'Code' section will be counted towards the size category.
 
-### Resources
+### Resources and Additional Reading
 You are encouraged to use the internet! Please feel free to use any resources you'd like.
 
-# Submission
+If this problem is interesting to you, [BioInformatics](https://en.wikipedia.org/wiki/Bioinformatics) might be a good place to start! A great challenge in the field was the [Shotgun Sequencing](https://en.wikipedia.org/wiki/Shotgun_sequencing) used in the Human Genome Project.
+
+### Submission
 Please keep in mind that there are two categories for submission: Fastest Code and Smallest Code. We will be collecting solutions the day of the event and showcasing and discussing them. You <b>must</b> attend to be eligible for prizes.
+
+### Questions
+Send any questions to Saffat Hasan sh3292@drexel.edu
