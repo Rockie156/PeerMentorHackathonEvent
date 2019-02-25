@@ -19,7 +19,7 @@ Consider the following DNA sequence
 ATGCC
 ```
 
-The transcription enzyme will produce the following codons (particularly observe how each codon lines up with the DNA string):
+Which produces the following codons (observe how each codon lines up with the original):
 
 ```
 ATGCC (original, not a codon)
