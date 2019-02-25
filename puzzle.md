@@ -3,9 +3,6 @@ layout: page
 title: Puzzle
 permalink: /puzzle/
 ---
-
-### Problem Statement
-
 We've found some alien DNA!
 
 Help us convert translate their genetic code into amino acids.
