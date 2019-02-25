@@ -4,13 +4,15 @@ title: Puzzle
 permalink: /puzzle/
 ---
 
+### Problem Statement
+
 We've found some alien DNA!
 
-Help us convert their genetic code to proteins.
+Help us convert translate their genetic code into amino acids.
 
 The aliens appear to have two key differences:
 
-1. Their transcription enzyme shifts only 1 base rather than 3 (each codon is still 3 base pairs long).
+1. Their codons overlap rather than being next to each other.
 2. Their enzymes sort codons before transcribing them to amino acids
 
 ### Example Trace
@@ -20,12 +22,13 @@ Consider the following DNA sequence
 ATGCC
 ```
 
-The transcription enzyme will produce the following codons:
+The transcription enzyme will produce the following codons (particularly observe how each codon lines up with the DNA string):
 
 ```
+ATGCC (original, not a codon)
 ATG
-TGC
-GCC
+ TGC
+  GCC
 ```
 
 Each codon is then sorted to
@@ -39,7 +42,7 @@ CCG
 Which (after performing a lookup [here](https://en.wikipedia.org/wiki/DNA_codon_table)) results in:
 
 ```
-Serine (S) 
+Serine (S)
 Arginine (R)
 Proline (P)
 ```
