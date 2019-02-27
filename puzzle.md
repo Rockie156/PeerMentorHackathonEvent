@@ -5,7 +5,7 @@ permalink: /puzzle/
 ---
 We've found some alien DNA!
 
-Help us convert translate their genetic code into amino acids.
+Help us convert their genetic code into amino acids.
 
 The aliens appear to have two key differences:
 
